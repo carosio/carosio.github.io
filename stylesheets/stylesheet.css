@@ -270,6 +270,10 @@ Full-Width Styles
   padding: 20px 10px;
   margin: 0 auto;
 }
+.imprint {
+  font-size: 10px;
+}
+
 
 #forkme_banner {
   display: block;
