@@ -1,2 +1,4 @@
 markdown: redcarpet
 path: http://carosio.github.io
+excerpt_separator: "<!-- more -->"
+
