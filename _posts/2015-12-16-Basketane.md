@@ -17,11 +17,16 @@ layout: post
 
 ### Features
 
-* (support for KVM virtualized guests)
+
+* security fixes from poky-upstream
+* added tools required for virtualization
 * basic support for host based firewall (native tools + rule persistence)
-* preliminary support for package feeds (self-hosted too with "kellner")
-* openvswitch
-* (quagga/ISIS)
+* preliminary support for self-hosted package feeds (added "kellner")
+* added openvswitch
+* added unbound and nsd packages for DNS resolving and zone-serving
+* added nginx-1.9.6
+
+For more details see [changelog][4]
 
 ### Why basketane? 
  
@@ -43,6 +48,9 @@ Second Patch: little tiny KVMs, i.e. unit tests like
 It is a kind of positive egoism. To show it works and alert ourself when it's
 broken.
 
+Btw. CarOS is a rolling release. Every 16th of month we drop a release. You can download the binaries for [**CarOS - release 15.12**][3] as ISO and as sdcard image.
 
 [1]: https://en.wikipedia.org/wiki/Basketane
-[2]: http://www.linux-kvm.org/page/KVM-unit-tests.
+[2]: http://www.linux-kvm.org/page/KVM-unit-tests
+[3]: https://github.com/carosio/caros-release/releases/tag/v15.12 
+[4]: https://github.com/carosio/caros-release/blob/master/CHANGELOG.md
