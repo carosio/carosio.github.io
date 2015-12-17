@@ -15,7 +15,11 @@ $(function () {
         var ext = '.md';
         var href = $(this).attr('href');
         var position = href.length - ext.length;
-        if (href.substring(position) === ext)
-            $(this).attr('href', href.substring(0, position));
+        if (!((href.substring(0, 7) === "http://") ||
+              (href.substring(0, 8) === "https://"))) {
+            if (href.substring(position) === ext) {
+                $(this).attr('href', href.substring(0, position));
+            }
+        }
     });
 });
