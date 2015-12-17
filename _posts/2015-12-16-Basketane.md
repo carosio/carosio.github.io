@@ -3,7 +3,7 @@ title: CarOS 15.12 Basketane
 layout: post
 ---
 
-    
+
 ~~~
     
    ______           ____  _____    /\
@@ -18,9 +18,9 @@ layout: post
 ### Features
 
 
-* security fixes from poky-upstream
+* security fixes from poky-upstream (1.8.1)
 * added tools required for virtualization
-* basic support for host based firewall (native tools + rule persistence)
+* basic support for host-based firewall (native tools + rule persistence)
 * preliminary support for self-hosted package feeds (added "kellner")
 * added openvswitch
 * added unbound and nsd packages for DNS resolving and zone-serving
@@ -40,17 +40,19 @@ Caros 15.12 supports KVM, it's like a basket.
 Well, what should we add to the basket? How can we show it works? What could
 we do next? What do you need?
  
-First Patch: Caros itself, we add a little HowTo for setup a self hosted package
-feeds to our Caros.io webpage.
+First Patch: Caros itself. We will add a little HowTo about setting up self hosted package
+feeds.
  
 Second Patch: little tiny KVMs, i.e. unit tests like
 [KVM-unit-tests][2].
 It is a kind of positive egoism. To show it works and alert ourself when it's
 broken.
 
-Btw. CarOS is a rolling release. Every 16th of month we drop a release. You can download the binaries for [**CarOS - release 15.12**][3] as ISO and as sdcard image.
+Btw. CarOS is a rolling release - we drop a new release every 16th of a month.
+You can download an ISO-, OVA- or sdcard-image for [**CarOS - release 15.12**][3] or set up your own buildroot using the [REDOMAT][5] definition
 
 [1]: https://en.wikipedia.org/wiki/Basketane
 [2]: http://www.linux-kvm.org/page/KVM-unit-tests
 [3]: https://github.com/carosio/caros-release/releases/tag/v15.12 
 [4]: https://github.com/carosio/caros-release/blob/master/CHANGELOG.md
+[5]: https://github.com/carosio/redomat
