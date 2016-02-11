@@ -53,6 +53,6 @@ You can download an ISO-, OVA- or sdcard-image for [**CarOS - release 15.12**][3
 
 [1]: https://en.wikipedia.org/wiki/Basketane
 [2]: http://www.linux-kvm.org/page/KVM-unit-tests
-[3]: https://github.com/carosio/caros-release/releases/tag/v15.12 
+[3]: https://github.com/carosio/caros-release/releases/tag/v15.12.1 
 [4]: https://github.com/carosio/caros-release/blob/master/CHANGELOG.md
 [5]: https://github.com/carosio/redomat
